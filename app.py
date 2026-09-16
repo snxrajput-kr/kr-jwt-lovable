@@ -71,7 +71,7 @@ def generate_jwt_token(uid: str, password: str):
     payload = aes_cbc_encrypt(MAIN_KEY, MAIN_IV, proto_bytes)
 
     # Send login request
-    url = "https://loginbp.ggblueshark.com/MajorLogin"
+    url = "https://loginbp.ppmainecoonghj.com/MajorLogin"
     headers = {
         'User-Agent': USERAGENT,
         'Connection': "Keep-Alive",
